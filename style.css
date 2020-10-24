@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    border: 1px solid  rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin-top: 65px;
+    left: 22%;   
+    padding-left: 2%;
+    padding-right: 19%;
+    padding-bottom: 9%;
+}
+
+#logo {
+    height: 32px;
+    padding: 10px;
+    padding-top: 45px;
+    left: 10%;
+}
+
+.account-logo {
+    position: absolute;
+    right: 1%; 
+    font-size: 25px;
+    top: 25%;
+    padding-right: 10%;
+    height: 60px;
+}
+
+.account-logo figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: #202124;
+    font-weight: 5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header p {
+   font-size: 25px;
+   margin: 0 0 20px 11px;
+   font-weight: 400;
+}
+
+input {
+    height: 20px;
+    padding: 8px 8px;
+    font-size: 14px;
+    border: 1px solid #0c0c0c26;
+    border-radius: 5px;  
+    margin: 10px;
+    text-align: left;
+    transition: .2s;
+}
+ 
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    padding: 8px;
+    font-size: 15px;
+    line-height: inherit;
+    font-weight: 600; 
+    position: absolute;
+}
+
+#user-name {
+    margin-top: 2%;
+    padding-right: 210px;
+    margin-bottom: 0.5%; 
+}
+
+#password {
+    margin-top: 30px;
+}
+
+#lbl-pass {
+    position: absolute;
+    top: 40px;
+    left: 14px;
+}
+
+form p {
+    padding: 6px;
+    font-size: 13px;
+}
+
+.last-para {
+    position: absolute;
+    left: 30px;
+    top: 375px;
+}
+
+input:focus {
+   outline:none;  
+}
+
+.sign, .btn {
+    position: absolute;
+}
+
+.sign {
+    bottom: 12%;
+    width: 19%;
+}
+
+.btn {
+    left: 45%;
+    bottom: 5%;
+}
+
+button {
+    background-color: #1a73e8;
+    padding: 9px 28px;
+    border: 1px #1a73e8;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+form :focus {
+    border: 2px solid #1a73e8;
+}
+
+label {
+    color: gray;
+    padding-left: 7px;
+}
+
+.name .label {
+    color: #6e6e6e;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+
+.name {
+    float: left;
+    position: relative;
+}
+
+#first-name:focus + label,
+#last-name:focus + label
+{
+    color: #1a73e8;
+    top: -4px;
+    margin-left: 8px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+#email {
+    position: absolute;
+    left: 5%;
+    font-size: 14px;
+    top: 218px;
+    color: #6e6e6e;
+    padding-left: 8px;
+}
+
+#user-name:focus + label{
+    color: #1a73e8;
+    top: 195px;
+    margin-left: 8px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.uname .ulabel {
+    color: #6e6e6e;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+
+.uname span {
+    position: relative;
+    left: -120px;
+    font-size: 14px;
+}
+
+.pname .label {
+    color: #6e6e6e;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    background: #ffffff;
+    transition: 0.15s;
+    font-size: 14px;
+}
+
+.pname {
+    float: left;
+    position: relative;
+}
+
+#password:focus + label {
+    color: #1a73e8;
+    top: 15px;
+    margin-left: 8px;
+    font-size: 11px;
+    padding: 5px;
+}

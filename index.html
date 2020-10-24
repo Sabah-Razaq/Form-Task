@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da1b0dca31.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <img id="logo" src="Images/logo.png" alt="google logo">
+            <p>Create your Google Account</p>
+        </div>
+        <div class="account-logo">
+            <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="account logo">
+            <figcaption>One account. All of Google
+                <br>
+                working for you.</figcaption>
+        </div>
+        <form>
+            <div class="name">
+                <input type="text" name="firstname" id="first-name" required>
+                <label for="firstname" class="label">First name</label>
+            </div>
+            <div class="name">
+                <input type="text" name="lastname" id="last-name" required>
+                <label for="lastname" class="label">Last name</label>
+            </div>
+            <div class="uname">
+                <input type="email" name="username" id="user-name" required>
+                <label for="username" id="email" class="ulabel">Username</label>
+                <span>@gmail.com</span>
+            </div>
+            <div>
+                <p>You can use letters, numbers and periods</p>
+                <a href="#">Use my current email address instead</a>
+                <br>
+            </div>
+            <div class="pname">
+                <input type="password" name="password" id="password" required>
+                <label for="password" class="label" id="lbl-pass">Password</label>
+            </div>
+            <div class="pname">
+                <input type="password" name="confirmpassword" id="password" required>
+                <label for="confirmpassword" class="label" id="lbl-pass">Confirm</label>
+                <i class="far fa-eye-slash"></i>
+            </div>
+            <div class="last-para">
+                <p>Use 8 or more characters with a mix of letters, numbers &
+                    <br>
+                    symbols</p>
+            </div>
+            <div class="sign">
+                <a href="#">Sign in instead</a>
+            </div>
+            <div class="btn">
+                <button>Next</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+
+
+
+</html>
